@@ -1,0 +1,22 @@
+{
+  "name": "<%= appname %>",
+  "description": "TODO",
+  "main": "",
+  "authors": [
+    "TODO"
+  ],
+  "license": "MIT",
+  "moduleType": [],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {},
+  "devDependencies": {},
+  "overrides": {}
+}

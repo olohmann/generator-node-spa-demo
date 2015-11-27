@@ -1,0 +1,40 @@
+{
+  "name": "<%= appname %>",
+  "description": "A sample application",
+  "version": "0.1.0",
+  "scripts": {
+    "init": "npm install",
+    "install": "bower install",
+    "start": "gulp serve-dev"
+  },
+  "license": "SEE LICENSE IN LICENSE",
+  "dependencies": {
+    "body-parser": "^1.8.2",
+    "express": "^4.9.3",
+    "faker": "^3.0.1",
+    "lodash": "^3.10.1",
+    "morgan": "^1.1.1",
+    "serve-favicon": "^2.0.1"
+  },
+  "devDependencies": {
+    "connect-livereload": "^0.5.4",
+    "gulp": "^3.9.0",
+    "gulp-help": "^1.6.1",
+    "gulp-if": "^2.0.0",
+    "gulp-inject": "^3.0.0",
+    "gulp-livereload": "^3.8.1",
+    "gulp-load-plugins": "^1.1.0",
+    "gulp-nodemon": "^2.0.4",
+    "gulp-notify": "^2.2.0",
+    "gulp-open": "^1.0.0",
+    "gulp-order": "^1.1.1",
+    "gulp-plumber": "^1.0.1",
+    "gulp-print": "^2.0.1",
+    "gulp-util": "^3.0.7",
+    "gulp-watch": "^4.3.5",
+    "jshint": "^2.8.0",
+    "run-sequence": "^1.1.5",
+    "slash": "^1.0.0",
+    "wiredep": "^3.0.0-beta"
+  }
+}
