@@ -94,7 +94,7 @@ var server = {
             PORT: 8080
         },
         nodeArgs: '--debug=5858',
-        stdout: true // ensures live-reload.
+        stdout: false // ensures live-reload.
     }
 };
 
