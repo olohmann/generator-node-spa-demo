@@ -1,6 +1,6 @@
 {
   "name": "generator-node-spa-demo",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A simple Yeoman generator for demoing the creation of Node.JS-backed single page applications.",
   "homepage": "https://github.com/olohmann/generator-node-spa-demo",
   "author": {
