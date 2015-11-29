@@ -12,6 +12,7 @@ gulp.task('serve-dev', 'Serve the dev version of the app and watch for changes.'
     $.livereload.listen({basePath: config.client.root});
     $.nodemon(options)
         .on('readable', function() {
+            this.stderr.pipe(process.stderr);
             this.stdout.on('data', function(chunk) {
                 if (/^Listening/.test(chunk)) {
                     gulp.src(config.server.main)
